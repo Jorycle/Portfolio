@@ -50,8 +50,10 @@ The data is encoded into the *x* least significant bits in each pixel field, whe
 ***To encode  data into an image:***
 1. Select the BMP image you would like to encode in the top file selector.
 2. Select the data file you would like to encode it with in the bottom file selector.
-3. Press Encode, and save a new image file when prompted.
+3. Select the number of bits you would like to encode per pixel color field.
+4. Press Encode, and save a new image file when prompted.
 
 ***To decode data from an image:***
 1. Select the BMP image you would like to decode in the top file selector.
-2. Press decode, and save a new file when prompted - make sure you use the same number of bits used when encoding the image.
+2. Select the same number of bits used when encoding the image.
+3. Press decode, and save a new file when prompted.
