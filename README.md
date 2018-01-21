@@ -1,6 +1,11 @@
 # Portfolio
 Updated 01/21/2018
 
+1. [Shell](https://github.com/Jorycle/Portfolio#shell)
+2. [Simple2d](https://github.com/Jorycle/Portfolio/blob/master/README.md#simple2d)
+3. [Simple3d](https://github.com/Jorycle/Portfolio/blob/master/README.md#simple3d)
+4. [Steganography](https://github.com/Jorycle/Portfolio/blob/master/README.md#steganography)
+
 This is a compilation of some small projects I've completed. Each directory hosts the source code of a different project.
 These programs were written in C++ using Visual Studio Community 2017 on Windows 10 unless otherwise noted.
 
