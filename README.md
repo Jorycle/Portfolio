@@ -9,7 +9,7 @@ These programs were written in C++ using Visual Studio Community 2017 on Windows
 This is a simple UNIX shell that supports job control and a few basic commands.
 It has a full command line interpreter that will correctly read quoted segments and break for break characters.
 The shell supports piping and redirection.
-### Basic commands:
+**Basic commands:**
 exit, cd, export, jobs, fg, bg, kill, help
 
 Compile by running the makefile in a UNIX environment.
@@ -36,10 +36,10 @@ Additionally, users may set the coordinates, view orientation, and "up vector" o
 (Windows-based GUI)
 This is a simple tool that will embed data into a BMP format image file, or retrieve embedded data from an encoded BMP file.
 The data is encoded into the *x* least significant bits in each pixel field, where *x* is a number (1-8) provided by the user.
-### To encode  data into an image:
+***To encode  data into an image:***
 1. Select the BMP image you would like to encode in the top file selector.
 2. Select the data file you would like to encode it with in the bottom file selector.
 3. Press Encode, and save a new image file when prompted.
-### To decode data from an image:
+***To decode data from an image:***
 1. Select the BMP image you would like to decode in the top file selector.
 2. Press decode, and save a new file when prompted.
