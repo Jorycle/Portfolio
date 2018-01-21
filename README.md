@@ -54,4 +54,4 @@ The data is encoded into the *x* least significant bits in each pixel field, whe
 
 ***To decode data from an image:***
 1. Select the BMP image you would like to decode in the top file selector.
-2. Press decode, and save a new file when prompted.
+2. Press decode, and save a new file when prompted - make sure you use the same number of bits used when encoding the image.
