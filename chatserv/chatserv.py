@@ -218,7 +218,6 @@ class Channel:
         if (len(self.backlog) > LIMITS_LOGSIZE):
             self.backlog.pop(0)
 
-
     def change_topic(self, newTopic):
         """Change the channel topic and broadcast it"""
         self.topic = newTopic
@@ -230,9 +229,8 @@ class Channel:
             return -1
         kickee = Server.find_user(username)
         if (kickee != None):
-            kickee.channel = Server.default_channel
-            self.userlist.remove(kickee)
             self.broadcast((username + " has been kicked from the channel by " + kicker.name + "."))
+            Server.default_channel.join_channel(kickee)
             return 0
         else:
             return None
