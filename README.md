@@ -62,7 +62,7 @@ The data is encoded into the *x* least significant bits in each pixel field, whe
 ## Chatserv
 (Python 3.6, command line)
 
-This is a simple Python 3.6 chat server. It was designed to be clientless so as to be the most portable, in the style of ye olde pre-web chat technology - as long as the server is running, anyone can telnet to the server with the host's IP and port 47692.
+This is a simple Python 3.6 chat server. It was designed to be clientless so as to be the most portable, in the style of ye olde pre-web chat technology - as long as the server is running, anyone can telnet to the server with the host's IP and port 47629.
 
 Among other features, notables include: Channels with topics; Channel owner-based moderation (kick, change topic); Channel logs; Query server, channel, and user information; Private messages between users.
 
@@ -70,6 +70,6 @@ The code makes use of a lot of basic software engineering practices. There is a 
 
 ***To chat:***
 1. Run the chatserv in a Python 3.6 environment.
-2. Connect to the chatserv on the command line with telnet: telnet (host) 47692
+2. Connect to the chatserv on the command line with telnet: telnet (host) 47629
 3. Select a username
 4. Start chatting! The introductory message or /help will tell you the commands.
